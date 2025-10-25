@@ -12,7 +12,10 @@ from lib.helpers import check_that_these_are_equal
 
 # YOUR FUNCTION GOES BELOW THIS LINE
 
+def add_numbers(numb1, numb2):
+  return numb1 + numb2
 
+print(add_numbers(2, 3))
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
 
