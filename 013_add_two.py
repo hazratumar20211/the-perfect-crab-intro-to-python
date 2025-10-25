@@ -11,7 +11,11 @@ from lib.helpers import check_that_these_are_equal
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
+def add_two(number):
+  number += 2
+  return number
 
+number = int(input("Write your number here \n"))
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
