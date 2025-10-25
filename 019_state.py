@@ -10,7 +10,7 @@ print(f"b is {b}")
 
 # @TASK: What does that output? And why? Take a guess, then run the code and
 # see.
-
+It's going to be 20 as a result because we have said above that whatever is in variable b is now equal to variable a.
 # Was it what you expected?
-
+Yes
 # Try to puzzle it out, and then move on to 020_state_tables.py
