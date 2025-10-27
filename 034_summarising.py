@@ -46,12 +46,15 @@ another_text = "\n".join(lines)
 # lines, not at the end also.
 
 # @TASK: Complete this exercise
-
 print("")
 print("Function: add_up_numbers")
 
 # Add up all the numbers in the list
 def add_up_numbers(numbers):
+  total = 0
+  for number in numbers:
+    total = number + total
+    return total
   pass
 
 check_that_these_are_equal(
